@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { PostCardComponent } from "../../layouts/post-card/post-card.component";
+import { CommentFormComponent } from "../../components/comment/comment-form/comment-form.component";
+import { CommentListComponent } from "../../components/comment/comment-list/comment-list.component";
 
 @Component({
   selector: 'app-single-post',
   standalone: true,
-  imports: [],
+  imports: [PostCardComponent, CommentFormComponent, CommentListComponent],
   templateUrl: './single-post.component.html',
   styleUrl: './single-post.component.css'
 })

@@ -8,12 +8,4 @@ input[type=text], input[type=email] {
     font-size: 13px;
     width: 100%;
 }
-.btn-sub{
-    height: 58px;
-    border: none;
-    font-size: 13px;
-    color: aliceblue;
-    width: 100%;
-    font-weight: bold;
-    background-color: var(--primary-color);
-}
+
